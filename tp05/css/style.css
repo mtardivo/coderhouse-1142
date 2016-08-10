@@ -1,0 +1,318 @@
+* {
+	box-sizing: border-box;
+}
+
+
+/* index */
+
+
+#header{
+	display: flex;
+	align-items:center;
+}
+
+footer{
+	display: flex;
+	align-items:center;
+	background-color: #061F30;
+	color: #FFF;
+	padding-left: 21%;
+	padding-right: 21%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	width: 100%
+}
+
+footer a{
+	color: white
+}
+
+button{
+	background-color: #07B9F5;
+	border: 0;
+	color: #FFF;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 10px;
+	width: 150px;
+	letter-spacing: 1px
+}
+
+.pricetable tbody{
+	font-size: 11px;
+	line-height: 23px
+}
+
+.prefooter{
+	padding: 50px;
+	background-color: #113040;
+	color: white;
+	letter-spacing: 1px;
+}
+
+#header img{
+	width: 70%
+}
+
+.navbar li {
+	display: inline-block;
+	position: relative;
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+footer nav li{
+	justify-content: 
+}
+
+.navbar{
+	margin-left: auto;
+}
+
+.margenes{
+	width: 60%;
+	margin:auto;
+}
+
+.centrar{
+	text-align: center;
+}
+
+.bloqueservicio1{
+	display: inline-block;
+	text-align: right;
+}
+
+.bloqueservicio2{
+	display: inline-block;
+}
+
+
+.bloque{
+	position: relative;
+	top:30%;
+	width: 50%
+}
+
+.bullet{
+	display: inline-block;
+	text-align: center;
+	margin-top: 60px;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 19%;
+	transition: transform 1.3s ease-in-out
+}
+
+.bullet:hover {
+	transform: scale(1.35);
+}
+
+.banner{
+	height: 460px;
+	background-image: url("E:/Coderhouse/tp03y04/images/indexbanner-bg3.jpg");
+	background-position: left top;
+	background-size: 100%;
+	color:#FFFFFF;
+	background-repeat: no-repeat;
+}
+
+.bullet img {
+	height: 70px;
+	margin: 5px;
+}
+
+.bullet p {
+	font-size: 8px;
+	line-height: 15px;
+	letter-spacing: 0px
+}
+
+.banner p{
+	opacity: 0.7
+}
+
+.intro img{
+	width: 25px
+}
+
+.intro {
+	margin-top: 50px;
+	margin-bottom: 70px
+}
+
+.tables{
+	background-image: url("E:/Coderhouse/tp03y04/images/pricing-bg.jpg");
+	background-size: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	margin-top: -50px;
+	padding-top: 50px;
+	margin-bottom: 50px
+}
+
+.span1 {
+	color: #07B9F5;
+	font-size: 25px;
+	font-family: "Arial",sans-serif
+}
+.servicios {
+	display: flex
+}
+
+.bloqueservicio1 p{
+	font-size: 9px;
+	line-height: 15px
+}
+
+.bloqueservicio1 img {
+	height: 35px
+}
+
+.bloqueservicio2 p{
+	font-size: 9px;
+	line-height: 15px
+}
+
+.bloqueservicio2 img {
+	height: 35px
+}
+
+.celular img{
+	height: 450px
+}
+
+.celular {
+	text-align: center
+}
+
+.servicio {
+	width: 82%;
+	margin: 25px;
+	display: flex;
+}
+
+.servicio div img{
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+.pricetable{
+	border: 1px solid #f6f6f6;
+	margin: 5px;
+	height:400px;
+	background-color: #FFF;
+	display: inline-block;
+	padding: 20px;
+}
+
+.formindex input[type="text"]{
+	height: 70px;
+	border: 0px;
+	width: 84.4%;
+	margin: 0px;
+	padding: 20px;
+	box-shadow: 0px 3px 5px #F6F6F6;
+}
+
+.formindex input[type="submit"]{
+	height: 70px;
+	border: 0px;
+	width: 15%;
+	background-color: #07B9F5;
+	margin: 0px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px
+}
+
+.formindex input[value="Enter your domain and hit enter"]{
+	font-family: "Raleway", sans-serif;
+	color: #E3E3E3;
+}
+
+h1 {
+	position: relative;
+	display: inline-block;
+}
+
+body{
+	font-family: "Raleway", sans-serif;
+	margin:0px;
+}
+
+a {
+	text-decoration: none;
+	color: black
+	}
+
+ul {
+	margin: 0
+}
+
+p{
+	font-size:10px;
+	letter-spacing: 1px;
+	line-height: 25px;
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+h4 {
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px
+}
+
+.formindex {
+	margin-top: -35px;
+	display: flex;
+	width: 60%
+}
+
+/* contact */
+
+.banner-contact{
+	height: 350px;
+	background-image: url("E:/Coderhouse/tp03y04/images/indexbanner-bg2.jpg");
+	background-position: left top;
+	background-size: 100%;
+	color:#FFFFFF;
+	background-repeat: no-repeat;
+}
+
+.formcontact input[type="text"]{
+	height: 35px;
+	border: 1px solid #f6f6f6;
+	border-radius: 5px;
+	width: 400px;
+	margin: 5px;
+	padding: 20px;
+}
+
+.formcontact input[name="Message"]{
+	height: 145px;
+	width: 400px;
+	border: 1px solid #f6f6f6;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 20px;
+}
+
+.formcontact{
+	display: flex;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px
+}
+
